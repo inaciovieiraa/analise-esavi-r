@@ -1,2 +1,72 @@
-# analise-esavi-r
-Pipeline de limpeza e análise de dados de notificações de vacinas (ESAVI) usando R.
+# 💉 Análise de Dados em Farmacovigilância (ESAVI)
+
+## 📌 Sobre o Projeto
+
+Este projeto foi desenvolvido como atividade prática de estudo em Análise de Dados aplicada à Saúde, com foco em Farmacovigilância.
+
+A proposta foi trabalhar com uma base de dados simulada de **Eventos Supostamente Atribuíveis à Vacinação ou Imunização (ESAVI)**, semelhante às utilizadas em sistemas de vigilância em saúde pública.
+
+O objetivo principal foi limpar, organizar e analisar dados brutos, transformando informações desestruturadas em resultados que auxiliem a compreensão de possíveis reações adversas associadas a vacinas.
+
+> **Importante:** Os dados utilizados são 100% fictícios, gerados apenas para fins educacionais e prática em análise de dados.
+
+---
+
+## 🛠️ Ferramentas Utilizadas
+* **Linguagem:** R
+* **Pacotes:** `tidyverse` (dplyr, tidyr, stringr)
+* **Ambiente:** RStudio
+
+---
+
+## ⚙️ Problemas Trabalhados
+A base de dados simulada apresentava situações comuns em dados reais da área da saúde:
+* **Dados Mistos:** Nome, sexo e idade do paciente em uma única coluna (exemplo: `"Ana | F | 30 anos"`).
+* **Inconsistência:** Diferentes grafias para o mesmo fabricante de vacina.
+* **Texto Livre:** Relatos clínicos sem padronização.
+
+---
+
+## 🔍 Estratégia Utilizada
+Para resolver esses problemas, foram realizadas as seguintes etapas:
+1. Separação e limpeza dos dados demográficos.
+2. Padronização dos fabricantes por regras simples de texto (Regex).
+3. Identificação automática de possíveis reações adversas com base em palavras-chave (Dor, febre, mialgia, fadiga, vermelhidão).
+4. Organização dos dados para análise estatística.
+
+---
+
+## 📊 Resultados Obtidos
+Após o tratamento dos dados, foi gerado um relatório contendo:
+* Total de pessoas vacinadas por fabricante.
+* Idade média dos pacientes.
+* Número de possíveis reações adversas.
+* Percentual de reações por fabricante.
+
+**Exemplo de resultado (base simulada):**
+
+| Fabricante | Taxa de Reação (%) |
+| :--- | :--- |
+| **LAB_GAMA** | **62,8%** |
+| LAB_BETA | 59,3% |
+| LAB_ALFA | 57,4% |
+
+*Os resultados refletem apenas a base simulada e não representam dados reais.*
+
+---
+
+## 🔜 Próximos Passos
+* [ ] Criação de gráficos para visualização dos dados.
+* [ ] Análise temporal das notificações.
+* [ ] Exploração de outros recortes (sexo, faixa etária, período).
+
+---
+
+## 💻 Como Executar
+1. Clone este repositório.
+2. Execute o script `01_geracao_dados.R` para gerar a base simulada.
+3. Execute o script `02_analise_esavi.R` para realizar a análise.
+
+---
+
+**Desenvolvido por Inácio** *Estudante de Enfermagem na Universidade Federal de Minas Gerais (UFMG) | Iniciando em Análise de Dados em Saúde*
