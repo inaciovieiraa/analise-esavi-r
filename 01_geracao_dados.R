@@ -1,3 +1,5 @@
+library(tidyverse)
+
 set.seed(2026) 
 n_notific <- 300 
 
@@ -31,3 +33,4 @@ base_esavi <- tibble(
   
   RELATO = sample(relatos, n_notific, replace = T)
 )
+
