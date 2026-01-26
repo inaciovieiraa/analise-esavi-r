@@ -69,4 +69,5 @@ Após o tratamento dos dados, foi gerado um relatório contendo:
 
 ---
 
-**Desenvolvido por Inácio** *Estudante de Enfermagem na Universidade Federal de Minas Gerais (UFMG) | Iniciando em Análise de Dados em Saúde*
+**Desenvolvido por Inácio Vieira** *Estudante de Enfermagem na Universidade Federal de Minas Gerais (UFMG) | Iniciando em Análise de Dados em Saúde* [LinkedIn](https://www.linkedin.com/in/inaciosantosvieira/)
+
