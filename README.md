@@ -14,7 +14,7 @@ O objetivo principal foi limpar, organizar e analisar dados brutos, transformand
 
 ## 🛠️ Ferramentas Utilizadas
 * **Linguagem:** R
-* **Pacotes:** `tidyverse` (dplyr, tidyr, stringr)
+* **Pacotes:** `tidyverse` (dplyr, tidyr, stringr, ggplot2)
 * **Ambiente:** RStudio
 
 ---
