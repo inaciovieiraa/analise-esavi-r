@@ -41,7 +41,7 @@ Para resolver esses problemas, foram realizadas as seguintes etapas:
 ### 1. Perfil Demográfico (Caracterização da Amostra)
 Para garantir que os dados não apresentam viés populacional, foi analisada a distribuição por sexo dos pacientes vacinados.
 
-![Distribuição por Sexo](grafico_sexo.png)
+![Distribuição por Sexo](grafico_sexo_v2.png)
 
 ---
 
