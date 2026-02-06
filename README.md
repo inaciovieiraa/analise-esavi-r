@@ -37,13 +37,16 @@ Para resolver esses problemas, foram realizadas as seguintes etapas:
 ---
 
 ## 📊 Resultados Obtidos
-Após o tratamento dos dados, foi gerado um relatório contendo:
-* Total de pessoas vacinadas por fabricante.
-* Idade média dos pacientes.
-* Número de possíveis reações adversas.
-* Percentual de reações por fabricante.
 
-**Exemplo de resultado (base simulada):**
+### 1. Perfil Demográfico (Caracterização da Amostra)
+Para garantir que os dados não apresentam viés populacional, foi analisada a distribuição por sexo dos pacientes vacinados.
+
+![Distribuição por Sexo](grafico_sexo.png)
+
+---
+
+### 2. Análise de Segurança (Farmacovigilância)
+Abaixo, apresentamos a taxa de notificação de eventos adversos (reações) por fabricante de vacina.
 
 | Fabricante | Taxa de Reação (%) |
 | :--- | :--- |
@@ -51,17 +54,14 @@ Após o tratamento dos dados, foi gerado um relatório contendo:
 | LAB_BETA | 59,3% |
 | LAB_ALFA | 57,4% |
 
-### Visualização Gráfica
-![Gráfico de Taxa de Reação](grafico_taxa_reacao.png)
+![Taxa de Reação](grafico_taxa_reacao.png)
 
-*Os resultados refletem apenas a base simulada e não representam dados reais.*
-
+*Nota: Os resultados refletem apenas a base simulada e não representam dados reais.*
 ---
 
-## 🔜 Próximos Passos
-* [x] **Visualização de Dados:** Criação de gráfico de barras comparativo (Taxa de Reação por Fabricante).
-* [ ] **Análise Temporal:** Criação de gráfico de linha para monitorar notificações ao longo do tempo.
-* [ ] **Análise Demográfica:** Exploração de recortes por sexo e faixa etária.
+## ✅ Funcionalidades Implementadas (Roadmap)
+* [x] **Análise Demográfica:** Exploração da distribuição dos pacientes por sexo (Gráfico de Pizza).
+* [x] **Visualização de Indicadores:** Criação de gráfico de barras comparativo (Taxa de Reação por Fabricante).
 
 ---
 
