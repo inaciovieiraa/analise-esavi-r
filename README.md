@@ -51,14 +51,17 @@ Após o tratamento dos dados, foi gerado um relatório contendo:
 | LAB_BETA | 59,3% |
 | LAB_ALFA | 57,4% |
 
+### Visualização Gráfica
+![Gráfico de Taxa de Reação](grafico_taxa_reacao.png)
+
 *Os resultados refletem apenas a base simulada e não representam dados reais.*
 
 ---
 
 ## 🔜 Próximos Passos
-* [ ] Criação de gráficos para visualização dos dados.
-* [ ] Análise temporal das notificações.
-* [ ] Exploração de outros recortes (sexo, faixa etária, período).
+* [x] **Visualização de Dados:** Criação de gráfico de barras comparativo (Taxa de Reação por Fabricante).
+* [ ] **Análise Temporal:** Criação de gráfico de linha para monitorar notificações ao longo do tempo.
+* [ ] **Análise Demográfica:** Exploração de recortes por sexo e faixa etária.
 
 ---
 
@@ -66,6 +69,7 @@ Após o tratamento dos dados, foi gerado um relatório contendo:
 1. Clone este repositório.
 2. Execute o script `01_geracao_dados.R` para gerar a base simulada.
 3. Execute o script `02_analise_esavi.R` para realizar a análise.
+4. Execute o script `03_visualizacao.R` para gerar os gráficos e salvar as imagens.
 
 ---
 
