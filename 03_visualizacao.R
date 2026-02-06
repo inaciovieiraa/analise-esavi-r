@@ -24,7 +24,7 @@ grafico_sexo <- dados_sexo %>%
   labs(title = "DISTRIBUIÇÃO POR SEXO", fill = "SEXO") +
   scale_fill_manual(values = c("#FC0FC0", "#87cefa")) 
 
-ggsave("grafico_sexo.png", plot = grafico_sexo, width = 6, height = 6)
+ggsave("grafico_sexo.png", plot = grafico_sexo, width = 6, height = 6, bg = "white")
 
 #===========================================================================================
 # 2. RESULTADOS OBTIDOS (TAXA DE REAÇÃO):
